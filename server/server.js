@@ -20,12 +20,13 @@ const PORT = process.env.PORT || 3002;
 // Configure CORS to only allow requests from specific origins
 const corsOptions = {
   origin: function (origin, callback) {
-    // Allow requests from localhost during development
+    // Allow requests from localhost during development and production frontend
     const allowedOrigins = [
       'http://localhost:3003',
       'http://localhost:5173',
       'http://127.0.0.1:3003',
-      'http://127.0.0.1:5173'
+      'http://127.0.0.1:5173',
+      'https://youtube-comment-extractor.onrender.com' // Production frontend
     ];
 
     // Allow requests with no origin (like mobile apps or curl requests)
