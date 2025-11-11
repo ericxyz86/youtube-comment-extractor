@@ -1,0 +1,5 @@
+{
+  "name": "YouTube Comment Extractor",
+  "description": "An application to extract YouTube video comments by date using AI. Users can input video URLs and a date to generate a list of relevant comments, which can then be downloaded as an Excel file.",
+  "requestFramePermissions": []
+}
