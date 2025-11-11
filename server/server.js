@@ -26,7 +26,7 @@ const corsOptions = {
       'http://localhost:5173',
       'http://127.0.0.1:3003',
       'http://127.0.0.1:5173',
-      'https://youtube-comment-extractor.onrender.com' // Production frontend
+      'https://youtube-comment-extractor-eqe8.onrender.com' // Production frontend
     ];
 
     // Allow requests with no origin (like mobile apps or curl requests)
