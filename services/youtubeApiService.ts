@@ -2,7 +2,7 @@ import type { Comment, VideoFilters } from '../types';
 
 // Use production backend URL or fallback to localhost for development
 const BACKEND_URL = import.meta.env.PROD
-  ? "https://youtube-comment-extractor-backend.onrender.com"
+  ? "https://youtube-api.aiailabs.net"
   : "http://localhost:3002";
 
 // Extract video ID from YouTube URL
